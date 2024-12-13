@@ -7,7 +7,8 @@ The objective of this marketing analysis is to understand customer demographics,
 📌 Evaluate the success and ROI of different marketing campaigns to allocate resources effectively.
 
 **Steps Followed** :-
-**1. Data Preparation and Loading **
+
+**1. Data Preparation and Loading**
 - Imported customer data into Power BI.
 - Segmented data into demographics, products, and campaign categories for focused insights.
 
