@@ -46,19 +46,19 @@ DAX Formulae used :
 **3. Cmp1 ROI = DIVIDE([C1 Orders],[C1 Cost])**  
 - Calculating the Campaign ROI . This is used for all 6 diffferent Campaigns 
 
-**  4. Dashboard Country = 
+**4. Dashboard Country = 
 VAR Sel_value = SELECTEDVALUE('Marketing+Data'[Country])
 VAR ct = COUNTROWS(VALUES('Marketing+Data'[Country]))
 RETURN 
 IF(ct > 2 , 
 " PLEASE SELECT ONLY ONE COUNTRY",
 IF(ct = 1 , 
- "Conversion Rate " & Sel_value , "Conversion Rate FOR MULTIPLE COUNTRIES")) **
+ "Conversion Rate " & Sel_value , "Conversion Rate FOR MULTIPLE COUNTRIES"))** 
 
  - This is the DAX Formulae for the Dynamic Textbox Dashboard which Changes to the Country name according to the Country selected in the Slicer 
  
 **8. Insights Derivation**
-- Highlighted actionable insights for business decision-making:
+- Highlighted actionable insights for business decision-making
 - 40-60 age group drives 50% of orders.
 - Meat and Wine products account for 75% of spend.
 - Campaigns 4 and 6 have the highest ROI.
